@@ -1,4 +1,6 @@
 ---
+title:
+    - endianness-v2
 tags:
     - forensics
     - picoCTF2024

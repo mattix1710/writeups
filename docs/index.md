@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Welcome to mattix1710s writeups
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I use this website for documenting my journey through cybersecurity world.
 
-## Commands
+Across these pages, you can find multiple CTF challenges from `TryHackMe`, `Cyberdefenders`, `picoCTF` etc.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+There are also writeups from various CTF competitions, such as `picoCTF 2023` or `picoCTF 2024`.
