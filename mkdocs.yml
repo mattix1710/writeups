@@ -2,7 +2,13 @@ site_name: mattix1710 - writeups
 
 theme:
   language: en
+  logo: material/fingerprint
   name: material
+
+  font:
+    # text: Fira Code
+    text: Cascadia Code
+
   palette:
     - scheme: default
       toggle:
@@ -16,3 +22,56 @@ theme:
         name: Switch to light mode
       primary: green
       accent: lime
+  features:
+    - navigation.top
+    - navigation.tabs
+    - content.code.copy
+    - content.tabs.link
+    - navigation.footer
+    - toc.integrate
+    - content.tooltips
+
+plugins:
+  - tags
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+  - def_list  # definition lists: https://squidfunk.github.io/mkdocs-material/reference/lists/#using-definition-lists
+  # annotations
+  - attr_list
+  - md_in_html
+  # formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+# FOOTER LINKS
+
+extra:
+  social:
+    - icon: material/web
+      link: https://mattix1710.github.io
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/mateusz-szuda/
+
+# NAVIGATION
+
+nav:
+  - Home: "index.md"
+  - picoCTF:
+    - picoCTF2024:
+      - endianness-v2: "picoCTF/endianness-v2.md"
