@@ -1,4 +1,18 @@
-site_name: My Docs
+site_name: mattix1710 - writeups
 
 theme:
+  language: en
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: green
+      accent: light green
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: green
+      accent: lime
