@@ -75,3 +75,5 @@ nav:
   - picoCTF:
     - picoCTF2024:
       - endianness-v2: "picoCTF/endianness-v2.md"
+  - HackTheBox:
+    - True Secrets: "HackTheBox/TrueSecrets.md"
