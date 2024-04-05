@@ -78,6 +78,7 @@ nav:
   - picoCTF:
     - picoCTF2024:
       - endianness-v2: "picoCTF/picoCTF2024/endianness-v2.md"
+      - Secret of the Polyglot: "picoCTF/picoCTF2024/secret-of-the-polyglot.md"
     - picoCTF2023:
       - who is it: "picoCTF/picoCTF2023/who-is-it.md"
   - HackTheBox:

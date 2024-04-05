@@ -1,9 +1,8 @@
 ---
-title:
-    - endianness-v2
 tags:
     - forensics
     - picoCTF2024
+    - 300pt
 ---
 
 !!! abstract "Description"
