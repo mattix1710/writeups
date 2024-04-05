@@ -61,6 +61,9 @@ markdown_extensions:
 
 # FOOTER LINKS
 
+exclude_docs: |
+  *.draft.md
+
 extra:
   social:
     - icon: material/web
@@ -74,6 +77,10 @@ nav:
   - Home: "index.md"
   - picoCTF:
     - picoCTF2024:
-      - endianness-v2: "picoCTF/endianness-v2.md"
+      - endianness-v2: "picoCTF/picoCTF2024/endianness-v2.md"
+    - picoCTF2023:
+      - who is it: "picoCTF/picoCTF2023/who-is-it.md"
   - HackTheBox:
     - True Secrets: "HackTheBox/TrueSecrets.md"
+  - CREDS NIST:
+      - Hacking Case: "CFREDS NIST/Hacking Case.md"
